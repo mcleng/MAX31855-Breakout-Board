@@ -79,11 +79,26 @@
 <layer number="105" name="tPlate" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="106" name="bPlate" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="107" name="Crop" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="108" name="fp8" color="7" fill="1" visible="no" active="yes"/>
+<layer number="109" name="fp9" color="7" fill="1" visible="no" active="yes"/>
+<layer number="110" name="fp0" color="7" fill="1" visible="no" active="yes"/>
+<layer number="111" name="LPC17xx" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="112" name="tSilk" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="116" name="Patch_BOT" color="9" fill="4" visible="yes" active="yes"/>
 <layer number="121" name="_tsilk" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="122" name="_bsilk" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="123" name="tTestmark" color="7" fill="1" visible="no" active="yes"/>
+<layer number="124" name="bTestmark" color="7" fill="1" visible="no" active="yes"/>
+<layer number="125" name="_tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="126" name="_bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="127" name="_tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="128" name="_bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="131" name="tAdjust" color="7" fill="1" visible="no" active="yes"/>
+<layer number="132" name="bAdjust" color="7" fill="1" visible="no" active="yes"/>
 <layer number="144" name="Drill_legend" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="151" name="HeatSink" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="152" name="_bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="199" name="Contour" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="200" name="200bmp" color="1" fill="10" visible="no" active="no"/>
 <layer number="201" name="201bmp" color="2" fill="1" visible="no" active="no"/>
 <layer number="202" name="202bmp" color="3" fill="1" visible="no" active="no"/>
@@ -101,6 +116,16 @@
 <layer number="214" name="214bmp" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="215" name="215bmp" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="216" name="216bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="217" name="217bmp" color="18" fill="1" visible="no" active="no"/>
+<layer number="218" name="218bmp" color="19" fill="1" visible="no" active="no"/>
+<layer number="219" name="219bmp" color="20" fill="1" visible="no" active="no"/>
+<layer number="220" name="220bmp" color="21" fill="1" visible="no" active="no"/>
+<layer number="221" name="221bmp" color="22" fill="1" visible="no" active="no"/>
+<layer number="222" name="222bmp" color="23" fill="1" visible="no" active="no"/>
+<layer number="223" name="223bmp" color="24" fill="1" visible="no" active="no"/>
+<layer number="224" name="224bmp" color="25" fill="1" visible="no" active="no"/>
+<layer number="248" name="Housing" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="249" name="Edge" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="250" name="Descript" color="3" fill="1" visible="no" active="no"/>
 <layer number="251" name="SMDround" color="12" fill="11" visible="no" active="no"/>
 <layer number="254" name="cooling" color="7" fill="1" visible="yes" active="yes"/>
@@ -2828,42 +2853,8 @@ Metric Code Size 5664</description>
 <text x="-3.175" y="3.175" size="1.27" layer="25">&gt;NAME</text>
 <text x="-3.175" y="-4.445" size="1.27" layer="25">&gt;VALUE</text>
 </package>
-<package name="WIRE-TO-BOARD_SMD_2WAY">
-<description>Wire to Board, 2 Position, SMT
-Mfg Part 009276002021106;  
-Digikey 478-6169-1-ND
-AVX Series 2976</description>
-<wire x1="0" y1="2.5" x2="-9" y2="2.5" width="0.127" layer="51"/>
-<wire x1="-9" y1="2.5" x2="-9" y2="-2.5" width="0.127" layer="51"/>
-<wire x1="-9" y1="-2.5" x2="0" y2="-2.5" width="0.127" layer="51"/>
-<wire x1="0" y1="-2.5" x2="0" y2="2.5" width="0.127" layer="51"/>
-<wire x1="0" y1="2.5" x2="-9" y2="2.5" width="0.2032" layer="21"/>
-<wire x1="-9" y1="-2.5" x2="0" y2="-2.5" width="0.2032" layer="21"/>
-<wire x1="-9" y1="2.5" x2="-9" y2="2.2" width="0.2032" layer="21"/>
-<wire x1="-9" y1="-2.5" x2="-9" y2="-2.2" width="0.2032" layer="21"/>
-<wire x1="-9" y1="-0.4" x2="-9" y2="0.4" width="0.2032" layer="21"/>
-<circle x="-3" y="-1.25" radius="0.2" width="0.5" layer="21"/>
-<smd name="P2-2" x="-8.3" y="1.25" dx="1.8" dy="1.2" layer="1"/>
-<smd name="P1-2" x="-8.3" y="-1.25" dx="1.8" dy="1.2" layer="1"/>
-<smd name="P1-1" x="-1.2" y="-1.25" dx="1.8" dy="1.2" layer="1"/>
-<smd name="P2-1" x="-1.2" y="1.25" dx="1.8" dy="1.2" layer="1"/>
-<text x="-9.5" y="3" size="1.27" layer="25" font="vector">&gt;NAME</text>
-<text x="-9.5" y="-4.3" size="1.27" layer="27" font="vector">&gt;VALUE</text>
-</package>
 </packages>
 <symbols>
-<symbol name="M02-2">
-<wire x1="10.16" y1="0" x2="0" y2="0" width="0.254" layer="94"/>
-<wire x1="0" y1="0" x2="0" y2="12.7" width="0.254" layer="94"/>
-<wire x1="0" y1="12.7" x2="10.16" y2="12.7" width="0.254" layer="94"/>
-<wire x1="10.16" y1="12.7" x2="10.16" y2="0" width="0.254" layer="94"/>
-<text x="-0.254" y="13.716" size="1.27" layer="95" font="vector">&gt;NAME</text>
-<text x="0" y="-2.54" size="1.27" layer="96" font="vector">&gt;VALUE</text>
-<pin name="1-1" x="15.24" y="10.16" visible="pin" length="middle" rot="R180"/>
-<pin name="1-2" x="15.24" y="7.62" visible="pin" length="middle" rot="R180"/>
-<pin name="2-1" x="15.24" y="5.08" visible="pin" length="middle" rot="R180"/>
-<pin name="2-2" x="15.24" y="2.54" visible="pin" length="middle" rot="R180"/>
-</symbol>
 <symbol name="MAX6675">
 <wire x1="-7.62" y1="7.62" x2="7.62" y2="7.62" width="0.254" layer="94"/>
 <wire x1="7.62" y1="7.62" x2="7.62" y2="-5.08" width="0.254" layer="94"/>
@@ -2919,17 +2910,45 @@ AVX Series 2976</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="WIRE-TO-BOARD_2PIN_SMD" uservalue="yes">
+</devicesets>
+</library>
+<library name="adafruit">
+<packages>
+<package name="1X2-3.5MM">
+<wire x1="-3.4" y1="3.4" x2="-3.4" y2="-2.2" width="0.127" layer="21"/>
+<wire x1="-3.4" y1="-2.2" x2="-3.4" y2="-3.6" width="0.127" layer="21"/>
+<wire x1="-3.4" y1="-3.6" x2="3.6" y2="-3.6" width="0.127" layer="21"/>
+<wire x1="3.6" y1="-3.6" x2="3.6" y2="-2.2" width="0.127" layer="21"/>
+<wire x1="3.6" y1="-2.2" x2="3.6" y2="3.4" width="0.127" layer="21"/>
+<wire x1="3.6" y1="3.4" x2="-3.4" y2="3.4" width="0.127" layer="21"/>
+<wire x1="-3.4" y1="-2.2" x2="3.6" y2="-2.2" width="0.127" layer="21"/>
+<pad name="1" x="1.8" y="0" drill="1" diameter="2.1844"/>
+<pad name="2" x="-1.7" y="0" drill="1" diameter="2.1844"/>
+<text x="3" y="5" size="1.27" layer="25" rot="R180">&gt;NAME</text>
+</package>
+</packages>
+<symbols>
+<symbol name="1X2">
+<wire x1="-2.54" y1="5.08" x2="-2.54" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-2.54" x2="5.08" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-2.54" x2="5.08" y2="5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="5.08" x2="-2.54" y2="5.08" width="0.254" layer="94"/>
+<pin name="1" x="-5.08" y="2.54" visible="pin" length="middle" direction="pas"/>
+<pin name="2" x="-5.08" y="0" visible="pin" length="middle" direction="pas"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="1X2" prefix="J">
+<description>3.5mm Terminal block
+&lt;p&gt;http://www.ladyada.net/library/pcb/eaglelibrary.html&lt;p&gt;</description>
 <gates>
-<gate name="G$1" symbol="M02-2" x="0" y="0"/>
+<gate name="G$1" symbol="1X2" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="WIRE-TO-BOARD_SMD_2WAY">
+<device name="-3.5MM" package="1X2-3.5MM">
 <connects>
-<connect gate="G$1" pin="1-1" pad="P1-1"/>
-<connect gate="G$1" pin="1-2" pad="P1-2"/>
-<connect gate="G$1" pin="2-1" pad="P2-1"/>
-<connect gate="G$1" pin="2-2" pad="P2-2"/>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2958,7 +2977,7 @@ AVX Series 2976</description>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
 <part name="J2" library="SparkFun" deviceset="M03" device="1X03_NO_SILK"/>
 <part name="J3" library="SparkFun" deviceset="M03" device="1X03_NO_SILK"/>
-<part name="J1" library="McLEng" deviceset="WIRE-TO-BOARD_2PIN_SMD" device=""/>
+<part name="J4" library="adafruit" deviceset="1X2" device="-3.5MM"/>
 </parts>
 <sheets>
 <sheet>
@@ -2979,7 +2998,7 @@ AVX Series 2976</description>
 <instance part="GND3" gate="1" x="43.18" y="53.34"/>
 <instance part="J2" gate="G$1" x="88.9" y="71.12" rot="R180"/>
 <instance part="J3" gate="G$1" x="114.3" y="71.12" rot="R180"/>
-<instance part="J1" gate="G$1" x="15.24" y="63.5"/>
+<instance part="J4" gate="G$1" x="25.4" y="73.66" rot="R180"/>
 </instances>
 <busses>
 </busses>
@@ -3045,32 +3064,18 @@ AVX Series 2976</description>
 <pinref part="J2" gate="G$1" pin="3"/>
 </segment>
 </net>
-<net name="N$1" class="0">
+<net name="T+" class="0">
 <segment>
-<wire x1="30.48" y1="68.58" x2="33.02" y2="68.58" width="0.1524" layer="91"/>
-<wire x1="33.02" y1="68.58" x2="40.64" y2="68.58" width="0.1524" layer="91"/>
-<wire x1="40.64" y1="68.58" x2="40.64" y2="73.66" width="0.1524" layer="91"/>
-<wire x1="40.64" y1="73.66" x2="48.26" y2="73.66" width="0.1524" layer="91"/>
-<wire x1="30.48" y1="66.04" x2="33.02" y2="66.04" width="0.1524" layer="91"/>
-<wire x1="33.02" y1="66.04" x2="33.02" y2="68.58" width="0.1524" layer="91"/>
-<junction x="33.02" y="68.58"/>
-<pinref part="J1" gate="G$1" pin="2-1"/>
-<pinref part="U1" gate="G$1" pin="T-"/>
-<pinref part="J1" gate="G$1" pin="2-2"/>
+<pinref part="J4" gate="G$1" pin="1"/>
+<pinref part="U1" gate="G$1" pin="T+"/>
+<wire x1="30.48" y1="71.12" x2="48.26" y2="71.12" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$2" class="0">
+<net name="T-" class="0">
 <segment>
-<wire x1="30.48" y1="73.66" x2="33.02" y2="73.66" width="0.1524" layer="91"/>
-<wire x1="33.02" y1="73.66" x2="38.1" y2="73.66" width="0.1524" layer="91"/>
-<wire x1="38.1" y1="73.66" x2="38.1" y2="71.12" width="0.1524" layer="91"/>
-<wire x1="38.1" y1="71.12" x2="48.26" y2="71.12" width="0.1524" layer="91"/>
-<wire x1="30.48" y1="71.12" x2="33.02" y2="71.12" width="0.1524" layer="91"/>
-<wire x1="33.02" y1="71.12" x2="33.02" y2="73.66" width="0.1524" layer="91"/>
-<junction x="33.02" y="73.66"/>
-<pinref part="J1" gate="G$1" pin="1-1"/>
-<pinref part="U1" gate="G$1" pin="T+"/>
-<pinref part="J1" gate="G$1" pin="1-2"/>
+<pinref part="J4" gate="G$1" pin="2"/>
+<pinref part="U1" gate="G$1" pin="T-"/>
+<wire x1="30.48" y1="73.66" x2="48.26" y2="73.66" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

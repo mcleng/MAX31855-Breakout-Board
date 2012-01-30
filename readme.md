@@ -31,7 +31,7 @@ It is simple to get everything up and running.
 Board Specs
 -----------
 
-*	Dimensions: 0.6" x 0.6"
+*	Dimensions: 0.6" x 0.5"
 *	Chip: MAX31855
 *	Voltage: 3.3V
 *	Header: 1x3 (2) 0.1" Pitch
@@ -39,6 +39,21 @@ Board Specs
 
 Versions
 --------
+
+###Version 1.1
+
+Primary change with this version was to remove the small SMT header with  more standard 3.5mm screw terminal.
+
+* Updated the layout and routing for the new terminals
+* Kept the existing DIP layout
+* Overall footprint reduced to 0.6" x 0.5"
+
+####Board Specs
+
+*	Dimensions: 0.6" x 0.5"
+*	Chip: MAX31855
+*	Header: 1x3 (2) 0.1" Pitch
+
 
 ###Version 1.0
 
